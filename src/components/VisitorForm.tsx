@@ -127,7 +127,7 @@ export default function VisitorForm({ visitor, statuses, pics, genders, onSubmit
           <label className="block text-sm font-medium text-gray-700 mb-1">Status</label>
           <select
             value={formData.status_code}
-            onChange={(e) => setFormData({ ...formData, status_code: e.target.value })}
+            onChange={(e) => setFormData({ ...formData, status_code: e.target.value as any })}
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
             required
           >
