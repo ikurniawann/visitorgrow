@@ -251,7 +251,7 @@ export default function Dashboard() {
 
         {/* Charts Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
-          <!-- Status Distribution -->
+          {/* Status Distribution */}
           <div className="bg-white border border-gray-200 rounded-lg p-5">
             <div className="flex justify-between items-center mb-4">
               <h3 className="text-base font-semibold text-gray-900">Status Distribution</h3>
@@ -301,7 +301,7 @@ export default function Dashboard() {
             </div>
           </div>
 
-          <!-- PIC Workload -->
+          {/* PIC Workload */}
           <div className="bg-white border border-gray-200 rounded-lg p-5">
             <div className="flex justify-between items-center mb-4">
               <h3 className="text-base font-semibold text-gray-900">PIC Workload</h3>
